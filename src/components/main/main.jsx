@@ -1,11 +1,11 @@
-import React from "react";
+import React, {Fragment} from "react";
 import PropTypes from "prop-types";
 
 const Main = (props) => {
   const {movieInfoCard} = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <section className="movie-card">
         <div className="movie-card__bg">
           <img src="img/bg-the-grand-budapest-hotel.jpg" alt="The Grand Budapest Hotel" />
@@ -300,7 +300,7 @@ const Main = (props) => {
           </div>
         </footer>
       </div>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
