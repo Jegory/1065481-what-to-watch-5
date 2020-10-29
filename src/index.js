@@ -14,5 +14,5 @@ ReactDOM.render(
       movieInfoCard = {InformDeskVideo}
       films = {films}
     />,
-    document.querySelector(`#root`)
+    document.getElementById(`root`)
 );

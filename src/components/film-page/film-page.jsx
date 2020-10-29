@@ -158,7 +158,7 @@ const FilmPage = (props) => {
   );
 };
 
-FilmPage.propType = {
+FilmPage.propTypes = {
   film: Films,
   films: PropTypes.arrayOf(Films).isRequired,
   handlePlayBtnClick: PropTypes.func.isRequired,
