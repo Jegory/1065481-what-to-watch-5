@@ -17,7 +17,7 @@ const App = (props) => {
     <BrowserRouter>
       <Switch>
 
-      <Route exact path="/"
+        <Route exact path="/"
           render={({history}) => (
             <Main
               movieInfoCard={movieInfoCard}

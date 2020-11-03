@@ -4,9 +4,9 @@ import App from "./components/app/app";
 import films from "./mocks/films";
 
 const InformDeskVideo = {
-  title: `The Grand Budapest Hotel`,
-  genre: `Drama`,
-  year: 2014
+  titleFilm: `The Grand Budapest Hotel`,
+  genreFilm: `Drama`,
+  releaseDate: 2014
 };
 
 ReactDOM.render(

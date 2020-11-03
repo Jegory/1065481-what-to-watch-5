@@ -5,7 +5,7 @@ import {Films} from '../../prop-types';
 
 const SmallCard = (props) => {
   const {
-    films: {
+    film: {
       titleFilm,
       poster,
     },
@@ -32,7 +32,7 @@ const SmallCard = (props) => {
 };
 
 SmallCard.propTypes = {
-  films: Films,
+  film: Films,
   handleMovieCardClick: PropTypes.func.isRequired,
   handleMovieCardMouse: PropTypes.func.isRequired,
 };
